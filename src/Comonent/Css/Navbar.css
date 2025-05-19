@@ -1,47 +1,84 @@
+/* Navbar.css */
+
 nav {
-  width: 60%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 0.8rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
-  z-index: 100;
-  margin: 0 auto;
+  z-index: 1000;
+  width: 100%;
 }
 
 header {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 2rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.sidelogo {
+.sidelogo span {
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  color: #007bff;
 }
 
 .AllLink {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .AllLink a {
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
   font-size: 1rem;
-  transition: color 0.3s ease;
+  color: #333;
+  padding: 0.5rem 0.75rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 6px;
 }
 
 .AllLink a:hover,
-.AllLink a.active {
-  color: purple;
-  border-bottom: 2px solid purple;
-  padding-bottom: 2px;
+.AllLink .active {
+  background-color: #007bff;
+  color: white;
 }
-img
-{
-  width: 25px;
-  margin-left: 10px;
-  cursor: pointer;
+
+header > div:last-child {
+  display: flex;
+  gap: 1rem;
+}
+
+header img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s;
+}
+
+header img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .AllLink {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .AllLink a {
+    width: 100%;
+  }
+
+  header > div:last-child {
+    align-self: flex-end;
+  }
 }
