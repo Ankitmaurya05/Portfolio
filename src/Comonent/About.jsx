@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Css/About.css"
 import anku from "../assets/dpimg.jpg"
-import ReactTypingEffect from 'react-typing-effect';
 
 const About = () => {
   return (
