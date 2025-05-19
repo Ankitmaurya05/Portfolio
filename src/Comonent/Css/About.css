@@ -1,0 +1,51 @@
+.about-container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.about-image {
+  margin: 0 auto;
+  position: relative;
+  width: 60%;
+  aspect-ratio: 1;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #e5e7eb;
+}
+.about-content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  color: #6b7280;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about-info-item h4 {
+  font-weight: 600;
+  color: #111827;
+}
+
+.about-info-item p {
+  color: #6b7280;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}

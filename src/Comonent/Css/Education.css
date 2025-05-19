@@ -1,0 +1,51 @@
+.education-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.education-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.education-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid #1976d2;
+  transition: transform 0.2s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  background-color: #e3f2fd;
+}
+
+.education-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.education-college {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.education-duration {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.education-focus {
+  font-size: 1rem;
+  font-style: italic;
+  color: #1976d2;
+}

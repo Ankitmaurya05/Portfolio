@@ -1,0 +1,47 @@
+nav {
+  width: 60%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidelogo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.AllLink {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.AllLink a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.AllLink a:hover,
+.AllLink a.active {
+  color: purple;
+  border-bottom: 2px solid purple;
+  padding-bottom: 2px;
+}
+img
+{
+  width: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
