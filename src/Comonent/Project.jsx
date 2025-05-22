@@ -14,8 +14,18 @@ const projects = [
     link: 'https://github.com/Ankumaurya07',
   },
   {
-    title: 'Flipkart clone',
+    title: 'Rest_Api',
     description: 'Developed a responsive website using HTML,CSS, Bootstrap, and JavaScript..',
+    link: 'https://github.com/Ankumaurya07',
+  },
+  {
+    title: 'Bike-Handell',
+    description: 'Developed a responsive website using HTML,CSS, Bootstrap, and JavaScript..',
+    link: 'https://github.com/Ankumaurya07',
+  },
+  {
+    title: 'Curd',
+    description: 'These operations allow users to manipulate and interact with data from the application.',
     link: 'https://github.com/Ankumaurya07',
   },
 ];
