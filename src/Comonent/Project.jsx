@@ -6,17 +6,17 @@ const projects = [
   {
     title: 'Portfolio Website',
     description: 'A personal portfolio website to showcase my projects and skills.',
-    link: 'https://yourportfolio.com',
+    link: 'https://github.com/Ankumaurya07',
   },
   {
     title: 'ToDo App',
     description: 'A simple and responsive to-do list app built using React.',
-    link: 'https://yourtodoapp.com',
+    link: 'https://github.com/Ankumaurya07',
   },
   {
-    title: 'Weather App',
-    description: 'An app that displays real-time weather information using a public API.',
-    link: 'https://yourweatherapp.com',
+    title: 'Flipkart clone',
+    description: 'Developed a responsive website using HTML,CSS, Bootstrap, and JavaScript..',
+    link: 'https://github.com/Ankumaurya07',
   },
 ];
 
