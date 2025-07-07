@@ -16,7 +16,7 @@ const Hero = () => {
         </p>
         <div className="hero-buttons">
                     <NavLink to="/Project">Project</NavLink>
-                    <NavLink to="/Contect">Contact</NavLink>
+                    <NavLink to="/Contact">Contact</NavLink>
         </div>
       </div>
     </div>
