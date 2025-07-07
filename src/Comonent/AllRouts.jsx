@@ -4,7 +4,7 @@ import About from './About'
 import Skill from './Skill'
 import Education from './Education'
 import Project from './Project'
-import Contect from './Contect'
+import Contect from './Contact'
 import Hero from './Home'
 
 
@@ -16,7 +16,7 @@ const AllRouts = () => {
       <Route path='/Skill' element={<Skill/>}/>
       <Route path='/Educations' element = {<Education/>}/>
       <Route path='/Project' element={<Project/>}/>
-      <Route path='/Contect' element={<Contect/>}/>
+      <Route path='/Contact' element={<Contect/>}/>
   
 
     </Routes>
