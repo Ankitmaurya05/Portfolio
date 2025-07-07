@@ -17,7 +17,7 @@ const Navbar = () => {
           <NavLink to="/Skill">Skill</NavLink>
           <NavLink to="/Educations">Educations</NavLink>
           <NavLink to="/Project">Project</NavLink>
-          <NavLink to="/Contect">Contect</NavLink>
+          <NavLink to="/Contect">Contact</NavLink>
         </div>
         <div >
           <a href="https://github.com/Ankumaurya07" target="_blank"><img src={git} alt=""/></a>
