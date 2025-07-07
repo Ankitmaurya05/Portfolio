@@ -28,6 +28,16 @@ const projects = [
     description: 'These operations allow users to manipulate and interact with data from the application.',
     link: 'https://github.com/Ankumaurya07',
   },
+  {
+    title: 'Netflix',
+    description: 'movie streaming interface using React.js, Tailwind CSS, Redux, and integrated TMDB API for dynamic content display',
+    link: 'https://github.com/Ankumaurya07',
+  },
+  {
+    title: 'CarApp',
+    description: 'MERN app for vehicle management with JWT, OTP auth, and protected dashboards.',
+    link: 'https://ankitcars.onrender.com/',
+  },
 ];
 
 const ProjectPage = () => {
