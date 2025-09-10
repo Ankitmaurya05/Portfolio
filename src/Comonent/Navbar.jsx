@@ -20,7 +20,7 @@ const Navbar = () => {
           <NavLink to="/Contact">Contact</NavLink>
         </div>
         <div >
-          <a href="https://github.com/Ankumaurya07" target="_blank"><img src={git} alt=""/></a>
+          <a href="https://github.com/Ankitmaurya05" target="_blank"><img src={git} alt=""/></a>
         <a href="https://www.linkedin.com/in/mauryaankit9537/" target="_blank"><img src={Lnk} alt=""/></a>
         </div>
       </header>
